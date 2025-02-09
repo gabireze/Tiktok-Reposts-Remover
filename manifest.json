@@ -1,0 +1,37 @@
+{
+  "name": "TikTok All Reposted Videos Remover",
+  "description": "A Chrome extension to remove all reposted videos on TikTok.",
+  "version": "1.0.2",
+  "author": {
+    "name": "Mohammed Mostafa Nazih",
+    "email": "mohammedmostafanazih@gmail.com",
+    "url": ""
+  },
+  "homepage_url": "",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*.tiktok.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "TikTok All Reposted Video Remover",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js", "styles.css"],
+      "matches": ["https://*.tiktok.com/*"]
+    }
+  ],
+  "manifest_version": 3
+}
