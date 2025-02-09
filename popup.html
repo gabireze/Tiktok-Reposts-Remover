@@ -3,57 +3,79 @@
   <head>
     <meta charset="UTF-8">
     <title>TikTok All Reposted Videos Remover</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <a
-        class="logo"
-        href="https://github.com/Mo7ammedd/Tiktok-Reposts-Remover"
-        target="_blank"
-      >
-        <img src="icon.jpeg" alt="Logo of TikTok All Reposted Videos Remover" />
-        <h1 class="title">Remove All Reposted Videos </h1>
+      <a class="logo" href="https://github.com/Mo7ammedd/Tiktok-Reposts-Remover" target="_blank">
+        <img src="icon.png" alt="Logo of TikTok All Reposted Videos Remover" />
+        <h1 class="title">Remove All Reposted Videos</h1>
       </a>
       <div class="menu">
         <div class="material-icons">help_outline</div>
         <div class="dropdown-menu">
-          <a
-            href="https://github.com/Mo7ammedd/Tiktok-Reposts-Remover"
-            target="_blank"
-            >GitHub</a
-          >
+          <!-- English Instructions -->
+          <div class="dropdown-section">
+            <h3>Instructions</h3>
+            <div class="steps">
+              <div class="step">
+                <div class="step-number">1</div>
+                <p>Log in to your TikTok account</p>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <p>Navigate to your profile page</p>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <p>Open your reposted videos section</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Arabic Instructions -->
+          <div class="dropdown-section rtl">
+            <h3>التعليمات</h3>
+            <div class="steps">
+              <div class="step">
+                <div class="step-number">١</div>
+                <p>قم بتسجيل الدخول إلى حساب TikTok الخاص بك</p>
+              </div>
+              <div class="step">
+                <div class="step-number">٢</div>
+                <p>انتقل إلى صفحة ملفك الشخصي</p>
+              </div>
+              <div class="step">
+                <div class="step-number">٣</div>
+                <p>افتح قسم مقاطع الفيديو المعاد نشرها</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="dropdown-divider"></div>
+          <a href="https://github.com/Mo7ammedd/Tiktok-Reposts-Remover" target="_blank">GitHub</a>
         </div>
       </div>
     </header>
     <div class="container">
       <div class="card">
-        <p class="instructions">
-          Before getting started, please make sure you are
-          <strong>logged in</strong> to your TikTok account and on
-          <strong>your profile page</strong>.
-        </p>
         <div class="warning">
-          <strong>Warning: </strong>
-          Keep the tab open until the process is done. Even if in the
-          background or minimized. If you close the tab, the process will stop.
-          If you have a lot of reposted videos, it may take a while. Be patient.
-          You can check the progress in the console.
+          <div class="warning-content">
+            <strong>Warning: </strong>
+            <span>Keep the tab open until the process is done. Even if in the background or minimized. If you close the tab, the process will stop.</span>
+          </div>
+          <div class="warning-content rtl">
+            <strong>تحذير: </strong>
+            <span>احتفظ بعلامة التبويب مفتوحة حتى تكتمل العملية. سيؤدي إغلاق علامة التبويب إلى إيقاف العملية.</span>
+          </div>
         </div>
         <button id="startButton" class="button">Start Removal</button>
       </div>
-      <div class="dedication">
-        صدقة جارية على روح عبدالله عبدالحميد شكوكو
-      </div>
+      <div class="dedication">صدقة جارية على روح عبدالله عبدالحميد شكوكو</div>
+      <div class="attribution">Made by Mohammed Mostafa</div>
     </div>
     <script src="popup.js"></script>
   </body>

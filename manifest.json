@@ -7,7 +7,6 @@
     "email": "mohammedmostafanazih@gmail.com",
     "url": ""
   },
-  "homepage_url": "",
   "permissions": ["scripting"],
   "host_permissions": ["https://*.tiktok.com/*"],
   "background": {
